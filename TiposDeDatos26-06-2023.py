@@ -139,3 +139,19 @@ conjunto_colores.add("Celeste")
 print("El set de colores lo conforman:",conjunto_colores)
 
 ##conjunto_animales.add("gato")
+print("###### 07-DICCIONARIOS ######")
+diccionarios = {}
+datos_personales = {
+    "Nombre":"Sebastian",
+    "Institucion":"ulagos",
+    "Edad":29,
+    "Asignaturas":{"Estructura de Datos", "Programacion"}
+}
+
+print("Diccionario inicial:",datos_personales)
+
+datos_personales["Institucion"] = "USS"
+print("Diccionario actualizado: ",datos_personales)
+
+##agregando un nuevo campo(clave) al diccionario
+
