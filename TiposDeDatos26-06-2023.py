@@ -152,6 +152,3 @@ print("Diccionario inicial:",datos_personales)
 
 datos_personales["Institucion"] = "USS"
 print("Diccionario actualizado: ",datos_personales)
-
-
-
